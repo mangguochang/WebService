@@ -14,7 +14,7 @@ import java.util.Map;
  * @version 1.0
  * @date 2019/11/3
  **/
-@WebService(targetNamespace = "http://localhost:8080/",endpointInterface = "com.itsimon.cloud.service.UserService")
+@WebService(targetNamespace = "http://localhost:8080/",endpointInterface = "com.itsimon.cloud.service.UserService",name = "http://localhost:8080/ ")
 public class UserServiceImpl implements UserService {
     Map<String,User> userMaps=new HashMap<>();
     public UserServiceImpl(){
